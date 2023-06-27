@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+.container{
+    background-color: hsl(220, 15%, 55%);
+    width: calc(100%/3);
+    height: 60%;
+    
+    
+}
+
+.qr-body{
+background-color:  hsl(0, 0%, 100%) ;
+}
