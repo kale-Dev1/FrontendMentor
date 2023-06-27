@@ -9,12 +9,16 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-color:  hsl(212, 45%, 89%);
+   
 
 }
 .container{
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
     border-radius: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -27,13 +31,14 @@ flex-direction: column;
 width: 225px;
 border-radius: 10px;
 text-align: center;
-margin: 60px 20px;
+margin: 60px 40px;
 
 }
 
 .qr-body img{
     width: 225px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .qr-body p:first-of-type{
